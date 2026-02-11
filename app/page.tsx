@@ -261,74 +261,74 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="section">
-          <div className="sectionTitle">📈 채널별 실적 요약</div>
-          <table>
-            <thead>
-              <tr>
-                <th>채널</th>
-                <th className="num">매출</th>
-                <th className="num">YoY</th>
-                <th className="num">이익률</th>
-                <th className="num">비중</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>백화점</td>
-                <td className="num">11,689</td>
-                <td className="num"><span className="badgeUp">103%</span></td>
-                <td className="num">20.0%</td>
-                <td className="num">28.6%</td>
-              </tr>
-              <tr>
-                <td>대리점</td>
-                <td className="num">10,123</td>
-                <td className="num"><span className="badgeDown">92%</span></td>
-                <td className="num">31.8%</td>
-                <td className="num">24.8%</td>
-              </tr>
-              <tr>
-                <td>아울렛</td>
-                <td className="num">7,688</td>
-                <td className="num"><span className="badgeDown">96%</span></td>
-                <td className="num">29.8%</td>
-                <td className="num">18.8%</td>
-              </tr>
-              <tr>
-                <td>제휴몰</td>
-                <td className="num">5,335</td>
-                <td className="num"><span className="badgeUp">116%</span></td>
-                <td className="num">38.3%</td>
-                <td className="num">13.1%</td>
-              </tr>
-              <tr>
-                <td>면세점</td>
-                <td className="num">2,901</td>
-                <td className="num"><span className="badgeUp">157%</span></td>
-                <td className="num">18.6%</td>
-                <td className="num">7.1%</td>
-              </tr>
-              <tr>
-                <td>자사몰</td>
-                <td className="num">1,549</td>
-                <td className="num"><span className="badgeUp">107%</span></td>
-                <td className="num">59.0%</td>
-                <td className="num">3.8%</td>
-              </tr>
-              <tr>
-                <td>직영점</td>
-                <td className="num">1,525</td>
-                <td className="num"><span className="badgeUp">137%</span></td>
-                <td className="num">21.0%</td>
-                <td className="num">3.7%</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
         <div className="container">
           <div className="left">
+            <div className="section">
+              <div className="sectionTitle">📈 채널별 실적 요약</div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>채널</th>
+                    <th className="num">매출</th>
+                    <th className="num">YoY</th>
+                    <th className="num">이익률</th>
+                    <th className="num">비중</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>백화점</td>
+                    <td className="num">11,689</td>
+                    <td className="num"><span className="badgeUp">103%</span></td>
+                    <td className="num">20.0%</td>
+                    <td className="num">28.6%</td>
+                  </tr>
+                  <tr>
+                    <td>대리점</td>
+                    <td className="num">10,123</td>
+                    <td className="num"><span className="badgeDown">92%</span></td>
+                    <td className="num">31.8%</td>
+                    <td className="num">24.8%</td>
+                  </tr>
+                  <tr>
+                    <td>아울렛</td>
+                    <td className="num">7,688</td>
+                    <td className="num"><span className="badgeDown">96%</span></td>
+                    <td className="num">29.8%</td>
+                    <td className="num">18.8%</td>
+                  </tr>
+                  <tr>
+                    <td>제휴몰</td>
+                    <td className="num">5,335</td>
+                    <td className="num"><span className="badgeUp">116%</span></td>
+                    <td className="num">38.3%</td>
+                    <td className="num">13.1%</td>
+                  </tr>
+                  <tr>
+                    <td>면세점</td>
+                    <td className="num">2,901</td>
+                    <td className="num"><span className="badgeUp">157%</span></td>
+                    <td className="num">18.6%</td>
+                    <td className="num">7.1%</td>
+                  </tr>
+                  <tr>
+                    <td>자사몰</td>
+                    <td className="num">1,549</td>
+                    <td className="num"><span className="badgeUp">107%</span></td>
+                    <td className="num">59.0%</td>
+                    <td className="num">3.8%</td>
+                  </tr>
+                  <tr>
+                    <td>직영점</td>
+                    <td className="num">1,525</td>
+                    <td className="num"><span className="badgeUp">137%</span></td>
+                    <td className="num">21.0%</td>
+                    <td className="num">3.7%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
             <div className="section">
               <div className="sectionTitle">🏷️ 아이템별 실적 요약</div>
               <table>
