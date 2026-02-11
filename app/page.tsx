@@ -457,7 +457,7 @@ export default function Home() {
               <div className="boxTitle blue">💡 1월 Key Point</div>
               <ul>
                 <li>25F 의류가 1월 매출의 64.6% 차지, YoY 121%로 성장 견인</li>
-                <li>면세점 YoY 157%로 최고 성장률 → 관광객 수요 회복 확인</li>
+                <li>면세점 YoY 157%로 최고 성장률 → 면세점 전용 상품 라인업 확대</li>
                 <li>아울렛 비중 18.8%로 2위이나 YoY 96% → 채널 효율화 필요</li>
                 <li>소프트쉘 판매율 52.1%(전년 41.2%, +10.9%p) 호조 → 중경량 아우터 트렌드 확인</li>
                 <li>영업비 절감(-7%) 효과가 원가율 상승을 부분 상쇄</li>
@@ -595,7 +595,7 @@ export default function Home() {
                     </tr>
                     <tr className="dangerRow">
                       <td>적자</td>
-                      <td>가로수길(직)</td>
+                      <td>가로수길(직) (26년 5월 폐점 예정)</td>
                       <td className="num textRed">-16</td>
                       <td className="num">-32.5%</td>
                       <td className="num">-26.8%</td>
@@ -606,7 +606,7 @@ export default function Home() {
                 
                 <div style={{fontSize: '8px', fontWeight: 'bold', margin: '6px 0 3px 0'}}>핵심 인사이트</div>
                 <ul style={{marginTop: '2px', fontSize: '7px'}}>
-                  <li>누적기여도 135.26% 왜곡: 가로수길 적자(-16백만원, -35.26%)로 Top5 합산 시 100% 초과</li>
+                  <li>누적기여도 135.26% 왜곡: 가로수길 적자(-16백만원, -35.26%, 26년 5월 폐점 예정)로 Top5 합산 시 100% 초과</li>
                   <li>신규 매장의 명암: 강남사옥(이익률 32.7%) 양호 vs 명동(이익률 9.8%) 저조</li>
                   <li>스타필드 매장 부진: 고양(-11.2%), 수원(-18.2%) 모두 역성장</li>
                 </ul>
@@ -1846,7 +1846,7 @@ export default function Home() {
                 </thead>
                 <tbody>
                   <tr className="dangerRow">
-                    <td><strong>가로수길(직)</strong></td>
+                    <td><strong>가로수길(직) (26년 5월 폐점 예정)</strong></td>
                     <td>직영점</td>
                     <td className="num textRed"><strong>-16</strong></td>
                     <td className="num">-32.5%</td>
@@ -1925,7 +1925,7 @@ export default function Home() {
                 </tbody>
               </table>
               <ul style={{marginTop: '5px', fontSize: '7px'}}>
-                <li><strong>가로수길:</strong> 유일한 적자(-16백만), 2월 내 폐점 결정</li>
+                <li><strong>가로수길:</strong> 유일한 적자(-16백만), 26년 5월 폐점 예정</li>
                 <li><strong>할인 과다형 3개:</strong> 노원(43.1%), 김포(32.6%), AK분당(30.7%)</li>
                 <li><strong>구조적 적자형 7개:</strong> 센텀·포항·대구·광주·창원 등</li>
               </ul>
@@ -1976,9 +1976,9 @@ export default function Home() {
                 </thead>
                 <tbody>
                   <tr className="dangerRow">
-                    <td><strong>가로수길 폐점 결정</strong></td>
+                    <td><strong>가로수길 폐점 예정</strong></td>
                     <td>직영점</td>
-                    <td>2월 내</td>
+                    <td>26년 5월</td>
                   </tr>
                   <tr>
                     <td>할인율 25% 상한선</td>
@@ -2004,7 +2004,7 @@ export default function Home() {
               <ul>
                 <li><strong>클로징 11개 매장:</strong> 손실 절감 약 800백만원</li>
                 <li><strong>개선 가능 5개:</strong> 할인율 정상화 시 +450백만원</li>
-                <li><strong>가로수길 폐점:</strong> 연간 192백만원 손실 차단</li>
+                <li><strong>가로수길 폐점 (26년 5월 예정):</strong> 연간 192백만원 손실 차단</li>
                 <li><strong>할인율 25% 상한:</strong> 백화점 채널 +1,200백만원</li>
               </ul>
             </div>
