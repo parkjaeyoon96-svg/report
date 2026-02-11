@@ -1,6 +1,6 @@
 # DISCOVERY 브랜드 경영 보고서
 
-Next.js로 구현된 DISCOVERY 브랜드 경영 보고서 웹 애플리케이션입니다.
+디스커버리 실적레포트 - Next.js로 구현된 DISCOVERY 브랜드 경영 보고서 웹 애플리케이션입니다.
 
 ## 시작하기
 
@@ -29,10 +29,10 @@ npm start
 
 ### Vercel 배포
 
-1. GitHub에 레포지토리 푸시
+1. GitHub에 레포지토리 푸시 완료 ✅
 2. [Vercel](https://vercel.com)에 접속
 3. "New Project" 클릭
-4. GitHub 레포지토리 선택
+4. GitHub 레포지토리 선택: `parkjaeyoon96-svg/report`
 5. 자동으로 배포됩니다
 
 ## 기술 스택
@@ -41,4 +41,3 @@ npm start
 - React 18
 - TypeScript
 - CSS Modules
-
