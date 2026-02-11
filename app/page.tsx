@@ -1019,13 +1019,14 @@ export default function Home() {
               <div className="sectionTitle">📊 25FW/25N TOP10 상품 매출·발주·재고 분석</div>
               
               <div className="box boxBlue">
-                <div className="boxTitle blue">25FW 의류 (패딩 중심) - 총 44,235백만원</div>
+                <div className="boxTitle blue">1-1. 의류(25FW) - 누적매출 기준 TOP10</div>
                 <table style={{marginTop: '4px'}}>
                   <thead>
                     <tr>
                       <th>순위</th>
                       <th>상품명</th>
-                      <th className="num">매출</th>
+                      <th className="num">누적매출액</th>
+                      <th className="num">발주액</th>
                       <th className="num">판매율</th>
                       <th className="num">재고</th>
                     </tr>
@@ -1033,106 +1034,329 @@ export default function Home() {
                   <tbody>
                     <tr className="successRow">
                       <td>1</td>
-                      <td>남성 레스터G 숏패딩</td>
+                      <td>남성 레스터G 구스다운 숏패딩</td>
                       <td className="num">7,448</td>
+                      <td className="num">10,280</td>
                       <td className="num"><strong>78.5%</strong></td>
                       <td className="num">2,210</td>
                     </tr>
                     <tr className="warnRow">
                       <td>2</td>
-                      <td>여성 레스터G 롱패딩</td>
+                      <td>여성 레스터G 구스다운 롱패딩</td>
                       <td className="num">7,427</td>
+                      <td className="num">18,996</td>
                       <td className="num">41.4%</td>
                       <td className="num textRed"><strong>11,131</strong></td>
                     </tr>
                     <tr>
                       <td>3</td>
-                      <td>여성 켈리 롱패딩</td>
-                      <td className="num">3,995</td>
+                      <td>여성 켈리 구스다운 롱패딩</td>
+                      <td className="num">5,116</td>
+                      <td className="num">9,503</td>
                       <td className="num">56.9%</td>
                       <td className="num">4,092</td>
                     </tr>
                     <tr className="warnRow">
                       <td>4</td>
-                      <td>유니 반슬리 숏패딩</td>
-                      <td className="num">3,837</td>
+                      <td>유니 반슬리 다운 숏패딩</td>
+                      <td className="num">4,745</td>
+                      <td className="num">10,505</td>
                       <td className="num">48.8%</td>
                       <td className="num">5,375</td>
                     </tr>
                     <tr>
                       <td>5</td>
-                      <td>여성 레스터G 숏패딩</td>
-                      <td className="num">3,578</td>
+                      <td>여성 레스터G 구스다운 숏패딩</td>
+                      <td className="num">4,370</td>
+                      <td className="num">7,093</td>
                       <td className="num">65.9%</td>
                       <td className="num">2,421</td>
+                    </tr>
+                    <tr className="warnRow">
+                      <td>6</td>
+                      <td>남성 레스터G 구스다운 롱패딩</td>
+                      <td className="num">3,643</td>
+                      <td className="num">8,550</td>
+                      <td className="num">46.2%</td>
+                      <td className="num">4,599</td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>여성 헤이니 글로우 다운 숏패딩</td>
+                      <td className="num">2,970</td>
+                      <td className="num">5,782</td>
+                      <td className="num">54.1%</td>
+                      <td className="num">2,655</td>
+                    </tr>
+                    <tr className="successRow">
+                      <td>8</td>
+                      <td>여성 켈리 구스다운 숏패딩</td>
+                      <td className="num">2,954</td>
+                      <td className="num">3,664</td>
+                      <td className="num"><strong>84.2%</strong></td>
+                      <td className="num">578</td>
+                    </tr>
+                    <tr className="dangerRow">
+                      <td>9</td>
+                      <td>여성 올리브 글로우 다운 숏패딩</td>
+                      <td className="num">2,824</td>
+                      <td className="num">10,476</td>
+                      <td className="num">28.7%</td>
+                      <td className="num textRed">7,464</td>
+                    </tr>
+                    <tr className="dangerRow">
+                      <td>10</td>
+                      <td>여성 올리아 글로우 다운 숏패딩</td>
+                      <td className="num">2,739</td>
+                      <td className="num">8,235</td>
+                      <td className="num">34.8%</td>
+                      <td className="num textRed">5,369</td>
                     </tr>
                   </tbody>
                 </table>
                 <ul style={{marginTop: '5px', fontSize: '7px'}}>
-                  <li><strong>패딩 집중:</strong> TOP10 전원 패딩 카테고리, 신규 상품 매출 상위 차지</li>
-                  <li><strong>재고 부담:</strong> 2위 여성 레스터G 롱패딩 재고 11,131백만원(판매율 41.4%)</li>
-                  <li><strong>롱 vs 숏:</strong> 남성 롱(46.2%) vs 숏(78.5%) 판매율 32.3%p 격차</li>
+                  <li><strong>레스터G 핵심 동력:</strong> 남성 숏(78.5%), 여성 숏(65.9%) 높은 판매율로 핵심 매출 견인</li>
+                  <li><strong>롱패딩 재고 집중:</strong> 여성 롱패딩 라인 재고 15,822백만원(2위+3위+6위), 판매율 41.4~56.9%</li>
+                  <li><strong>글로우 시리즈 부진:</strong> 올리브·올리아 판매율 28.7~34.8%, 재고 12,833백만원 심각</li>
+                  <li><strong>효자 상품 발굴:</strong> 8위 켈리 숏패딩 전년比 +179.8%, 판매율 84.2% → 리오더 검토</li>
                 </ul>
               </div>
 
               <div className="box boxYellow">
-                <div className="boxTitle yellow">25N ACC (백팩 중심) - 총 16,118백만원</div>
+                <div className="boxTitle yellow">1-2. ACC(25N) - 당월매출 기준 TOP10</div>
                 <table style={{marginTop: '4px'}}>
                   <thead>
                     <tr>
                       <th>순위</th>
                       <th>상품명</th>
-                      <th className="num">매출</th>
-                      <th className="num">YoY</th>
+                      <th className="num">당월매출액</th>
+                      <th className="num">발주액</th>
                       <th className="num">재고주수</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr className="warnRow">
                       <td>1</td>
-                      <td>라이크 에어 플로 백팩</td>
-                      <td className="num">2,882</td>
-                      <td className="num">-14.4%</td>
-                      <td className="num">47.5주</td>
-                    </tr>
-                    <tr className="dangerRow">
-                      <td>2</td>
                       <td>라이크 에어 시프트 백팩</td>
-                      <td className="num">2,766</td>
-                      <td className="num"><strong>-45.4%</strong></td>
-                      <td className="num">17.0주</td>
+                      <td className="num">214</td>
+                      <td className="num">3,731</td>
+                      <td className="num">17주</td>
+                    </tr>
+                    <tr className="warnRow">
+                      <td>2</td>
+                      <td>(Online exclusive) 픽토르 슬림 패딩</td>
+                      <td className="num">189</td>
+                      <td className="num">1,236</td>
+                      <td className="num">19.1주</td>
+                    </tr>
+                    <tr className="successRow">
+                      <td>3</td>
+                      <td>라이크 에어 옵티머스 백팩</td>
+                      <td className="num">164</td>
+                      <td className="num">1,343</td>
+                      <td className="num"><strong>3.1주</strong></td>
+                    </tr>
+                    <tr className="warnRow">
+                      <td>4</td>
+                      <td>라이크 에어 마일 백팩</td>
+                      <td className="num">108</td>
+                      <td className="num">2,267</td>
+                      <td className="num">31.2주</td>
                     </tr>
                     <tr className="dangerRow">
-                      <td>3</td>
-                      <td>웨이브 제인</td>
-                      <td className="num">2,292</td>
-                      <td className="num">신규</td>
-                      <td className="num textRed"><strong>531.1주</strong></td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                      <td>라이크 에어 트와인 백팩</td>
-                      <td className="num">1,751</td>
-                      <td className="num">-5.6%</td>
-                      <td className="num">36.0주</td>
-                    </tr>
-                    <tr>
                       <td>5</td>
+                      <td>버킷 마운틴 LT</td>
+                      <td className="num">95</td>
+                      <td className="num">3,097</td>
+                      <td className="num textRed"><strong>89.5주</strong></td>
+                    </tr>
+                    <tr className="dangerRow">
+                      <td>6</td>
+                      <td>조거 플렉스</td>
+                      <td className="num">89</td>
+                      <td className="num">2,174</td>
+                      <td className="num textRed">70.5주</td>
+                    </tr>
+                    <tr className="warnRow">
+                      <td>7</td>
                       <td>라이크 에어 매티스 백팩</td>
-                      <td className="num">1,679</td>
-                      <td className="num">-15.5%</td>
+                      <td className="num">85</td>
+                      <td className="num">2,692</td>
                       <td className="num">43.4주</td>
+                    </tr>
+                    <tr className="successRow">
+                      <td>8</td>
+                      <td>스무디</td>
+                      <td className="num">81</td>
+                      <td className="num">915</td>
+                      <td className="num"><strong>5.4주</strong></td>
+                    </tr>
+                    <tr>
+                      <td>9</td>
+                      <td>픽토르P 패딩 머플러</td>
+                      <td className="num">64</td>
+                      <td className="num">591</td>
+                      <td className="num">16주</td>
+                    </tr>
+                    <tr className="dangerRow">
+                      <td>10</td>
+                      <td>오브</td>
+                      <td className="num">58</td>
+                      <td className="num">986</td>
+                      <td className="num textRed">50주</td>
                     </tr>
                   </tbody>
                 </table>
                 <ul style={{marginTop: '5px', fontSize: '7px'}}>
-                  <li><strong>전년 대비 부진:</strong> 발주·매출 동반 감소(-15~45%)</li>
-                  <li><strong>신규 상품 과다 발주:</strong> 웨이브 제인 재고주수 531.1주(이상치)</li>
-                  <li><strong>라이크 에어:</strong> 7개 시리즈 중 시프트 백팩 -45.4% 급락</li>
+                  <li><strong>시프트 백팩 하락:</strong> 1위 당월 214백만원이나 전년比 매출 -45.4%, 발주 -45.9% → 수명주기 하락 국면</li>
+                  <li><strong>픽토르 과다 투입:</strong> 2위 온라인 전용 상품, 전년比 매출 -27.2%인데 발주 +129% 증가</li>
+                  <li><strong>빠른 회전 상품:</strong> 3위 옵티머스(3.1주), 8위 스무디(5.4주) → 추가 투입 또는 리오더 검토</li>
+                  <li><strong>즉시 처분 필요:</strong> 버킷 마운틴(89.5주), 조거 플렉스(70.5주), 오브(50주) 50주 초과 장기재고</li>
+                </ul>
+              </div>
+
+              <div className="box boxGreen">
+                <div className="boxTitle green">1-3. ACC(26N) - 신규 라인업 당월매출 TOP10</div>
+                <table style={{marginTop: '4px'}}>
+                  <thead>
+                    <tr>
+                      <th>순위</th>
+                      <th>상품명</th>
+                      <th className="num">당월매출액</th>
+                      <th className="num">발주액</th>
+                      <th className="num">재고주수</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className="successRow">
+                      <td>1</td>
+                      <td>라이크 에어 플로 백팩 31</td>
+                      <td className="num">437</td>
+                      <td className="num">2,701</td>
+                      <td className="num">18.8주</td>
+                    </tr>
+                    <tr className="successRow">
+                      <td>2</td>
+                      <td>라이크 에어 원더 백팩 31</td>
+                      <td className="num">353</td>
+                      <td className="num">2,696</td>
+                      <td className="num">23.6주</td>
+                    </tr>
+                    <tr className="warnRow">
+                      <td>3</td>
+                      <td>라이크 에어 노바 백팩 31</td>
+                      <td className="num">278</td>
+                      <td className="num">3,454</td>
+                      <td className="num">44.5주</td>
+                    </tr>
+                    <tr className="warnRow">
+                      <td>4</td>
+                      <td>라이크 에어 글라이드 백팩 28</td>
+                      <td className="num">153</td>
+                      <td className="num">1,939</td>
+                      <td className="num">45.2주</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>라이크 에어 에센셜 세트</td>
+                      <td className="num">136</td>
+                      <td className="num">934</td>
+                      <td className="num">21.8주</td>
+                    </tr>
+                    <tr className="warnRow">
+                      <td>6</td>
+                      <td>라이크 에어 비스타 백팩 26</td>
+                      <td className="num">124</td>
+                      <td className="num">1,686</td>
+                      <td className="num">49.4주</td>
+                    </tr>
+                    <tr className="warnRow">
+                      <td>7</td>
+                      <td>라이크 에어 스트라이드 백팩</td>
+                      <td className="num">111</td>
+                      <td className="num">1,609</td>
+                      <td className="num">51.5주</td>
+                    </tr>
+                    <tr className="warnRow">
+                      <td>8</td>
+                      <td>라이크 에어 블링크 백팩 25</td>
+                      <td className="num">104</td>
+                      <td className="num">1,427</td>
+                      <td className="num">48.5주</td>
+                    </tr>
+                    <tr className="successRow">
+                      <td>9</td>
+                      <td>라이크 에어 로엔 백팩 세트</td>
+                      <td className="num">83</td>
+                      <td className="num">434</td>
+                      <td className="num"><strong>14주</strong></td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td>라이크 에어 플럭스 백팩 16</td>
+                      <td className="num">70</td>
+                      <td className="num">640</td>
+                      <td className="num">30.3주</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <ul style={{marginTop: '5px', fontSize: '7px'}}>
+                  <li><strong>런칭 초기 강세:</strong> 1~2위(플로, 원더) 당월 437+353=790백만원으로 강한 출발</li>
+                  <li><strong>초기 발주 과다:</strong> 3위 이하 재고주수 44.5~51.5주로 장기 재고화 징후 감지</li>
+                  <li><strong>세트 상품 효율:</strong> 9위 로엔 백팩 세트 14주로 빠른 회전 → 세트 구성 전략 확대 검토</li>
+                  <li><strong>라이크 에어 브랜딩:</strong> 26N 신규 백팩 라인업 투입, 초기 4주 기준 재고주수 평균 35.1주</li>
                 </ul>
               </div>
             </div>
 
+            <div className="section">
+              <div className="sectionTitle">🏭 ACC 재고주수 현황</div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>카테고리</th>
+                    <th className="num">당해</th>
+                    <th className="num">전년</th>
+                    <th className="num">증감</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="totalRow">
+                    <td>전체 ACC</td>
+                    <td className="num">41.9주</td>
+                    <td className="num">47.2주</td>
+                    <td className="num textGreen">-5.3주</td>
+                  </tr>
+                  <tr>
+                    <td>기타ACC</td>
+                    <td className="num">23.5주</td>
+                    <td className="num">33.0주</td>
+                    <td className="num textGreen">-9.5주</td>
+                  </tr>
+                  <tr>
+                    <td>가방</td>
+                    <td className="num">34.6주</td>
+                    <td className="num">36.8주</td>
+                    <td className="num textGreen">-2.2주</td>
+                  </tr>
+                  <tr>
+                    <td>신발</td>
+                    <td className="num">51.4주</td>
+                    <td className="num">56.6주</td>
+                    <td className="num textGreen">-5.2주</td>
+                  </tr>
+                  <tr className="successRow">
+                    <td><strong>모자</strong></td>
+                    <td className="num"><strong>62.5주</strong></td>
+                    <td className="num">96.0주</td>
+                    <td className="num textGreen"><strong>-33.5주</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="right">
             <div className="section">
               <div className="sectionTitle">📈 25F 의류 시즌 판매율 & M/U</div>
               <div className="grid2">
@@ -1204,54 +1428,6 @@ export default function Home() {
               </table>
             </div>
 
-            <div className="section">
-              <div className="sectionTitle">🏭 ACC 재고주수 현황</div>
-              <table>
-                <thead>
-                  <tr>
-                    <th>카테고리</th>
-                    <th className="num">당해</th>
-                    <th className="num">전년</th>
-                    <th className="num">증감</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="totalRow">
-                    <td>전체 ACC</td>
-                    <td className="num">41.9주</td>
-                    <td className="num">47.2주</td>
-                    <td className="num textGreen">-5.3주</td>
-                  </tr>
-                  <tr>
-                    <td>기타ACC</td>
-                    <td className="num">23.5주</td>
-                    <td className="num">33.0주</td>
-                    <td className="num textGreen">-9.5주</td>
-                  </tr>
-                  <tr>
-                    <td>가방</td>
-                    <td className="num">34.6주</td>
-                    <td className="num">36.8주</td>
-                    <td className="num textGreen">-2.2주</td>
-                  </tr>
-                  <tr>
-                    <td>신발</td>
-                    <td className="num">51.4주</td>
-                    <td className="num">56.6주</td>
-                    <td className="num textGreen">-5.2주</td>
-                  </tr>
-                  <tr className="successRow">
-                    <td><strong>모자</strong></td>
-                    <td className="num"><strong>62.5주</strong></td>
-                    <td className="num">96.0주</td>
-                    <td className="num textGreen"><strong>-33.5주</strong></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          <div className="right">
             <div className="section">
               <div className="sectionTitle">💰 채널x중분류 교차분석 (성장 TOP20)</div>
               <table>
