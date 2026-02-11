@@ -1118,7 +1118,7 @@ export default function Home() {
                   <li><strong>레스터G 핵심 동력:</strong> 남성 숏(78.5%), 여성 숏(65.9%) 높은 판매율로 핵심 매출 견인</li>
                   <li><strong>롱패딩 재고 집중:</strong> 여성 롱패딩 라인 재고 15,822백만원(2위+3위+6위), 판매율 41.4~56.9%</li>
                   <li><strong>글로우 시리즈 부진:</strong> 올리브·올리아 판매율 28.7~34.8%, 재고 12,833백만원 심각</li>
-                  <li><strong>효자 상품 발굴:</strong> 8위 켈리 숏패딩 전년比 +179.8%, 판매율 84.2% → 리오더 검토</li>
+                  <li><strong>효자 상품 발굴:</strong> 8위 켈리 숏패딩, 판매율 84.2% → 리오더 검토</li>
                 </ul>
               </div>
 
@@ -1384,43 +1384,43 @@ export default function Home() {
                 <tbody>
                   <tr className="successRow">
                     <td><strong>소프트쉘</strong></td>
-                    <td className="num"><strong>52.1%</strong></td>
-                    <td className="num">41.2%</td>
-                    <td className="num">-</td>
-                    <td className="num">-</td>
+                    <td className="num"><strong>52.10%</strong></td>
+                    <td className="num">41.20%</td>
+                    <td className="num">4.33</td>
+                    <td className="num">4.60</td>
                   </tr>
                   <tr>
                     <td>맨투맨</td>
-                    <td className="num">49.6%</td>
-                    <td className="num">59.9%</td>
-                    <td className="num">-</td>
-                    <td className="num">-</td>
+                    <td className="num">49.60%</td>
+                    <td className="num">59.90%</td>
+                    <td className="num">4.37</td>
+                    <td className="num">5.28</td>
                   </tr>
                   <tr>
                     <td>다운점퍼</td>
-                    <td className="num">46.5%</td>
-                    <td className="num">50.4%</td>
+                    <td className="num">46.50%</td>
+                    <td className="num">50.40%</td>
                     <td className="num">4.19</td>
                     <td className="num">4.46</td>
                   </tr>
                   <tr>
                     <td>트레이닝(하의)</td>
-                    <td className="num">38.9%</td>
-                    <td className="num">41.6%</td>
+                    <td className="num">38.90%</td>
+                    <td className="num">41.60%</td>
                     <td className="num">4.65</td>
                     <td className="num">4.72</td>
                   </tr>
                   <tr className="dangerRow">
                     <td>트레이닝(상의)</td>
-                    <td className="num">35.8%</td>
-                    <td className="num">40.4%</td>
+                    <td className="num">35.80%</td>
+                    <td className="num">40.40%</td>
                     <td className="num">4.31</td>
                     <td className="num">4.63</td>
                   </tr>
                   <tr className="dangerRow">
                     <td><strong>방풍자켓</strong></td>
-                    <td className="num">-</td>
-                    <td className="num">-</td>
+                    <td className="num">32.90%</td>
+                    <td className="num">40.60%</td>
                     <td className="num"><strong>3.65</strong></td>
                     <td className="num">4.29</td>
                   </tr>
