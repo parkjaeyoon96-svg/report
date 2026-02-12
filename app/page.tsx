@@ -490,6 +490,7 @@ export default function Home() {
                     <tr>
                       <th>순위</th>
                       <th>매장명</th>
+                      <th className="num">매출</th>
                       <th className="num">직접이익</th>
                       <th className="num">YoY</th>
                       <th className="num">이익률</th>
@@ -500,6 +501,7 @@ export default function Home() {
                     <tr className="successRow">
                       <td>1위</td>
                       <td>신라면세장충</td>
+                      <td className="num">816</td>
                       <td className="num">146</td>
                       <td className="num">+209.4%</td>
                       <td className="num">19.7%</td>
@@ -508,6 +510,7 @@ export default function Home() {
                     <tr>
                       <td>2위</td>
                       <td>신세계면세명동</td>
+                      <td className="num">764</td>
                       <td className="num">128</td>
                       <td className="num">-12.7%</td>
                       <td className="num">18.5%</td>
@@ -516,6 +519,7 @@ export default function Home() {
                     <tr>
                       <td>3위</td>
                       <td>현대면세무역</td>
+                      <td className="num">580</td>
                       <td className="num">114</td>
                       <td className="num">N/A</td>
                       <td className="num">21.6%</td>
@@ -524,6 +528,7 @@ export default function Home() {
                     <tr>
                       <td>4위</td>
                       <td>신라면세용산</td>
+                      <td className="num">741</td>
                       <td className="num">103</td>
                       <td className="num">-17.7%</td>
                       <td className="num">15.2%</td>
@@ -554,6 +559,7 @@ export default function Home() {
                     <tr>
                       <th>순위</th>
                       <th>매장명</th>
+                      <th className="num">매출</th>
                       <th className="num">직접이익</th>
                       <th className="num">YoY</th>
                       <th className="num">이익률</th>
@@ -564,6 +570,7 @@ export default function Home() {
                     <tr>
                       <td>1위</td>
                       <td>강남사옥(직)</td>
+                      <td className="num">109</td>
                       <td className="num">33</td>
                       <td className="num">N/A</td>
                       <td className="num">32.7%</td>
@@ -572,6 +579,7 @@ export default function Home() {
                     <tr>
                       <td>2위</td>
                       <td>명동점(직)</td>
+                      <td className="num">336</td>
                       <td className="num">30</td>
                       <td className="num">N/A</td>
                       <td className="num">9.8%</td>
@@ -580,6 +588,7 @@ export default function Home() {
                     <tr>
                       <td>3위</td>
                       <td>스타필드고양(직)</td>
+                      <td className="num">217</td>
                       <td className="num">56</td>
                       <td className="num">-11.2%</td>
                       <td className="num">28.3%</td>
@@ -588,6 +597,7 @@ export default function Home() {
                     <tr>
                       <td>4위</td>
                       <td>스타필드안성(직)</td>
+                      <td className="num">175</td>
                       <td className="num">45</td>
                       <td className="num">+8.4%</td>
                       <td className="num">28.5%</td>
@@ -596,6 +606,7 @@ export default function Home() {
                     <tr className="dangerRow">
                       <td>적자</td>
                       <td>가로수길(직) (26년 5월 폐점 예정)</td>
+                      <td className="num">67</td>
                       <td className="num textRed">-16</td>
                       <td className="num">-32.5%</td>
                       <td className="num">-26.8%</td>
@@ -626,6 +637,7 @@ export default function Home() {
                     <tr>
                       <th>순위</th>
                       <th>매장명</th>
+                      <th className="num">매출</th>
                       <th className="num">직접이익</th>
                       <th className="num">YoY</th>
                       <th className="num">이익률</th>
@@ -636,6 +648,7 @@ export default function Home() {
                     <tr>
                       <td>1위</td>
                       <td>무신사(제휴몰)</td>
+                      <td className="num">1,754</td>
                       <td className="num">595</td>
                       <td className="num">-1.5%</td>
                       <td className="num">37.3%</td>
@@ -644,6 +657,7 @@ export default function Home() {
                     <tr>
                       <td>2위</td>
                       <td>네이버스토어(제휴몰)</td>
+                      <td className="num">1,562</td>
                       <td className="num">536</td>
                       <td className="num">-5.7%</td>
                       <td className="num">37.7%</td>
@@ -652,6 +666,7 @@ export default function Home() {
                     <tr className="successRow">
                       <td>3위</td>
                       <td>롯데ON(제휴몰)</td>
+                      <td className="num">533</td>
                       <td className="num">166</td>
                       <td className="num">+76.9%</td>
                       <td className="num">34.3%</td>
@@ -660,6 +675,7 @@ export default function Home() {
                     <tr>
                       <td>4위</td>
                       <td>카카오선물하기(제휴몰)</td>
+                      <td className="num">313</td>
                       <td className="num">150</td>
                       <td className="num">-0.1%</td>
                       <td className="num">52.6%</td>
@@ -668,6 +684,7 @@ export default function Home() {
                     <tr>
                       <td>5위</td>
                       <td>29CM(제휴몰)</td>
+                      <td className="num">317</td>
                       <td className="num">111</td>
                       <td className="num">-11.8%</td>
                       <td className="num">38.4%</td>
@@ -705,6 +722,7 @@ export default function Home() {
                     <tr>
                       <th>순위</th>
                       <th>매장명</th>
+                      <th className="num">매출</th>
                       <th className="num">직접이익</th>
                       <th className="num">YoY</th>
                       <th className="num">이익률</th>
@@ -715,6 +733,7 @@ export default function Home() {
                     <tr>
                       <td>1위</td>
                       <td>LF스퀘어양주(대-위)</td>
+                      <td className="num">299</td>
                       <td className="num">89</td>
                       <td className="num">-6.6%</td>
                       <td className="num">32.6%</td>
@@ -723,6 +742,7 @@ export default function Home() {
                     <tr>
                       <td>2위</td>
                       <td>모다경주(대-위)</td>
+                      <td className="num">276</td>
                       <td className="num">80</td>
                       <td className="num">-19.5%</td>
                       <td className="num">32.0%</td>
@@ -731,6 +751,7 @@ export default function Home() {
                     <tr className="successRow">
                       <td>3위</td>
                       <td>순천연향(대-위)</td>
+                      <td className="num">176</td>
                       <td className="num">54</td>
                       <td className="num">+67.1%</td>
                       <td className="num">33.5%</td>
@@ -739,6 +760,7 @@ export default function Home() {
                     <tr>
                       <td>4위</td>
                       <td>퍼스트빌리지(대-위)</td>
+                      <td className="num">189</td>
                       <td className="num">52</td>
                       <td className="num">-6.2%</td>
                       <td className="num">30.1%</td>
@@ -747,6 +769,7 @@ export default function Home() {
                     <tr>
                       <td>5위</td>
                       <td>현대가든파이브(상-위)</td>
+                      <td className="num">144</td>
                       <td className="num">48</td>
                       <td className="num">+11.0%</td>
                       <td className="num">36.6%</td>
@@ -777,6 +800,7 @@ export default function Home() {
                     <tr>
                       <th>순위</th>
                       <th>매장명</th>
+                      <th className="num">매출</th>
                       <th className="num">직접이익</th>
                       <th className="num">YoY</th>
                       <th className="num">이익률</th>
@@ -787,6 +811,7 @@ export default function Home() {
                     <tr className="warnRow">
                       <td>1위</td>
                       <td>팩토리이천(직)</td>
+                      <td className="num">168</td>
                       <td className="num">92</td>
                       <td className="num">-18.5%</td>
                       <td className="num">60.1%</td>
@@ -795,6 +820,7 @@ export default function Home() {
                     <tr>
                       <td>2위</td>
                       <td>신세계아울렛시흥(직)</td>
+                      <td className="num">596</td>
                       <td className="num">242</td>
                       <td className="num">-8.3%</td>
                       <td className="num">44.7%</td>
@@ -803,6 +829,7 @@ export default function Home() {
                     <tr className="successRow">
                       <td>3위</td>
                       <td>신세계아울렛파주(직)</td>
+                      <td className="num">399</td>
                       <td className="num">169</td>
                       <td className="num">+10.1%</td>
                       <td className="num">46.6%</td>
@@ -811,6 +838,7 @@ export default function Home() {
                     <tr className="warnRow">
                       <td>4위</td>
                       <td>롯데아울렛김해(직)</td>
+                      <td className="num">469</td>
                       <td className="num">152</td>
                       <td className="num">-23.1%</td>
                       <td className="num">35.6%</td>
@@ -819,6 +847,7 @@ export default function Home() {
                     <tr>
                       <td>5위</td>
                       <td>현대아울렛김포(직)</td>
+                      <td className="num">357</td>
                       <td className="num">143</td>
                       <td className="num">-4.6%</td>
                       <td className="num">44.2%</td>
@@ -850,6 +879,7 @@ export default function Home() {
                     <tr>
                       <th>순위</th>
                       <th>매장명</th>
+                      <th className="num">매출</th>
                       <th className="num">직접이익</th>
                       <th className="num">YoY</th>
                       <th className="num">이익률</th>
@@ -860,6 +890,7 @@ export default function Home() {
                     <tr className="successRow">
                       <td>1위</td>
                       <td>신세계강남</td>
+                      <td className="num">653</td>
                       <td className="num">185</td>
                       <td className="num">+22.1%</td>
                       <td className="num">31.1%</td>
@@ -868,6 +899,7 @@ export default function Home() {
                     <tr className="successRow">
                       <td>2위</td>
                       <td>롯데잠실</td>
+                      <td className="num">616</td>
                       <td className="num">164</td>
                       <td className="num">+24.2%</td>
                       <td className="num">29.3%</td>
@@ -876,6 +908,7 @@ export default function Home() {
                     <tr>
                       <td>3위</td>
                       <td>롯데인천</td>
+                      <td className="num">461</td>
                       <td className="num">122</td>
                       <td className="num">+1.7%</td>
                       <td className="num">29.0%</td>
@@ -884,6 +917,7 @@ export default function Home() {
                     <tr>
                       <td>4위</td>
                       <td>마리오구로</td>
+                      <td className="num">242</td>
                       <td className="num">99</td>
                       <td className="num">-7.2%</td>
                       <td className="num">45.2%</td>
@@ -892,6 +926,7 @@ export default function Home() {
                     <tr>
                       <td>5위</td>
                       <td>신세계대구</td>
+                      <td className="num">336</td>
                       <td className="num">95</td>
                       <td className="num">+0.7%</td>
                       <td className="num">31.0%</td>
@@ -921,6 +956,7 @@ export default function Home() {
                     <tr>
                       <th>순위</th>
                       <th>매장명</th>
+                      <th className="num">매출</th>
                       <th className="num">직접이익</th>
                       <th className="num">YoY</th>
                       <th className="num">이익률</th>
@@ -931,6 +967,7 @@ export default function Home() {
                     <tr className="highlightRow">
                       <td>1위</td>
                       <td>온라인쇼핑몰(직)</td>
+                      <td className="num">1,546</td>
                       <td className="num">829</td>
                       <td className="num">+2.6%</td>
                       <td className="num">59.0%</td>
@@ -939,6 +976,7 @@ export default function Home() {
                     <tr>
                       <td>2위</td>
                       <td>Discovery 쇼피파이</td>
+                      <td className="num">3</td>
                       <td className="num">2</td>
                       <td className="num">N/A</td>
                       <td className="num">68.5%</td>
@@ -1736,6 +1774,7 @@ export default function Home() {
                 <thead>
                   <tr>
                     <th>매장명</th>
+                    <th className="num">매출</th>
                     <th className="num">직접이익</th>
                     <th className="num">YoY</th>
                     <th className="num">이익률</th>
@@ -1744,24 +1783,28 @@ export default function Home() {
                 <tbody>
                   <tr className="successRow">
                     <td>신라장충</td>
+                    <td className="num">816</td>
                     <td className="num">146</td>
                     <td className="num"><strong>+209.4%</strong></td>
                     <td className="num">19.7%</td>
                   </tr>
                   <tr>
                     <td>신세계명동</td>
+                    <td className="num">764</td>
                     <td className="num">128</td>
                     <td className="num">-12.7%</td>
                     <td className="num">18.5%</td>
                   </tr>
                   <tr>
                     <td>현대무역(신규)</td>
+                    <td className="num">580</td>
                     <td className="num">114</td>
                     <td className="num">N/A</td>
                     <td className="num">21.6%</td>
                   </tr>
                   <tr>
                     <td>신라용산</td>
+                    <td className="num">741</td>
                     <td className="num">103</td>
                     <td className="num">-17.7%</td>
                     <td className="num">15.2%</td>
@@ -1774,6 +1817,7 @@ export default function Home() {
                 <thead>
                   <tr>
                     <th>매장명</th>
+                    <th className="num">매출</th>
                     <th className="num">직접이익</th>
                     <th className="num">YoY</th>
                     <th className="num">이익률</th>
@@ -1782,12 +1826,14 @@ export default function Home() {
                 <tbody>
                   <tr className="highlightRow">
                     <td>온라인쇼핑몰(직)</td>
+                    <td className="num">1,546</td>
                     <td className="num"><strong>829</strong></td>
                     <td className="num">+2.6%</td>
                     <td className="num"><strong>59.0%</strong></td>
                   </tr>
                   <tr>
                     <td>Discovery 쇼피파이</td>
+                    <td className="num">3</td>
                     <td className="num">2</td>
                     <td className="num">N/A</td>
                     <td className="num">68.5%</td>
@@ -1800,6 +1846,7 @@ export default function Home() {
                 <thead>
                   <tr>
                     <th>매장명</th>
+                    <th className="num">매출</th>
                     <th className="num">직접이익</th>
                     <th className="num">YoY</th>
                     <th className="num">이익률</th>
@@ -1808,18 +1855,21 @@ export default function Home() {
                 <tbody>
                   <tr>
                     <td>신세계강남</td>
+                    <td className="num">653</td>
                     <td className="num">185</td>
                     <td className="num">+22.1%</td>
                     <td className="num">31.1%</td>
                   </tr>
                   <tr>
                     <td>롯데잠실</td>
+                    <td className="num">616</td>
                     <td className="num">164</td>
                     <td className="num">+24.2%</td>
                     <td className="num">29.3%</td>
                   </tr>
                   <tr>
                     <td>롯데인천</td>
+                    <td className="num">461</td>
                     <td className="num">122</td>
                     <td className="num">+1.7%</td>
                     <td className="num">29.0%</td>
@@ -1839,6 +1889,7 @@ export default function Home() {
                   <tr>
                     <th>매장명</th>
                     <th>채널</th>
+                    <th className="num">매출</th>
                     <th className="num">직접이익</th>
                     <th className="num">YoY</th>
                     <th className="num">할인율</th>
@@ -1848,6 +1899,7 @@ export default function Home() {
                   <tr className="dangerRow">
                     <td><strong>가로수길(직) (26년 5월 폐점 예정)</strong></td>
                     <td>직영점</td>
+                    <td className="num">67</td>
                     <td className="num textRed"><strong>-16</strong></td>
                     <td className="num">-32.5%</td>
                     <td className="num">+2.3%p</td>
@@ -1855,6 +1907,7 @@ export default function Home() {
                   <tr className="dangerRow">
                     <td>롯데센텀</td>
                     <td>백화점</td>
+                    <td className="num">37</td>
                     <td className="num">1</td>
                     <td className="num">-85.9%</td>
                     <td className="num">32.8%</td>
@@ -1862,6 +1915,7 @@ export default function Home() {
                   <tr className="dangerRow">
                     <td>롯데포항</td>
                     <td>백화점</td>
+                    <td className="num">55</td>
                     <td className="num">9</td>
                     <td className="num">-35.2%</td>
                     <td className="num">+6.0%p</td>
@@ -1869,6 +1923,7 @@ export default function Home() {
                   <tr className="dangerRow">
                     <td>롯데대구</td>
                     <td>백화점</td>
+                    <td className="num">63</td>
                     <td className="num">9</td>
                     <td className="num">-13.6%</td>
                     <td className="num">+6.1%p</td>
@@ -1876,6 +1931,7 @@ export default function Home() {
                   <tr className="dangerRow">
                     <td>롯데광주</td>
                     <td>백화점</td>
+                    <td className="num">64</td>
                     <td className="num">9</td>
                     <td className="num">-68.2%</td>
                     <td className="num">36.9%</td>
@@ -1883,6 +1939,7 @@ export default function Home() {
                   <tr className="dangerRow">
                     <td>롯데창원</td>
                     <td>백화점</td>
+                    <td className="num">81</td>
                     <td className="num">13</td>
                     <td className="num">-35.3%</td>
                     <td className="num">+4.2%p</td>
@@ -1890,6 +1947,7 @@ export default function Home() {
                   <tr className="warnRow">
                     <td>스타필드하남(직)</td>
                     <td>직영점</td>
+                    <td className="num">128</td>
                     <td className="num">17</td>
                     <td className="num">-52.7%</td>
                     <td className="num">+7.2%p</td>
@@ -1897,6 +1955,7 @@ export default function Home() {
                   <tr className="warnRow">
                     <td>신세계센텀</td>
                     <td>백화점</td>
+                    <td className="num">193</td>
                     <td className="num">28</td>
                     <td className="num">-32.3%</td>
                     <td className="num">+3.2%p</td>
@@ -1904,6 +1963,7 @@ export default function Home() {
                   <tr className="warnRow">
                     <td><strong>롯데노원</strong></td>
                     <td>백화점</td>
+                    <td className="num">207</td>
                     <td className="num">25</td>
                     <td className="num">-27.0%</td>
                     <td className="num"><strong>43.1%</strong></td>
@@ -1911,6 +1971,7 @@ export default function Home() {
                   <tr className="warnRow">
                     <td><strong>롯데김포</strong></td>
                     <td>백화점</td>
+                    <td className="num">238</td>
                     <td className="num">29</td>
                     <td className="num">+41.9%</td>
                     <td className="num">32.6%</td>
@@ -1918,6 +1979,7 @@ export default function Home() {
                   <tr className="warnRow">
                     <td><strong>AK분당</strong></td>
                     <td>백화점</td>
+                    <td className="num">275</td>
                     <td className="num">32</td>
                     <td className="num">+19.1%</td>
                     <td className="num">30.7%</td>
@@ -1935,6 +1997,7 @@ export default function Home() {
                 <thead>
                   <tr>
                     <th>매장명</th>
+                    <th className="num">매출</th>
                     <th className="num">직접이익</th>
                     <th className="num">개선 포인트</th>
                   </tr>
@@ -1942,22 +2005,26 @@ export default function Home() {
                 <tbody>
                   <tr>
                     <td>롯데관악</td>
-                    <td className="num">8.2</td>
+                    <td className="num">40</td>
+                    <td className="num">6</td>
                     <td className="num">매출+37.9%, 할인정상화</td>
                   </tr>
                   <tr>
                     <td>롯데강남</td>
-                    <td className="num">9.6</td>
+                    <td className="num">64</td>
+                    <td className="num">10</td>
                     <td className="num">매출+11.1%, 플래그십</td>
                   </tr>
                   <tr>
                     <td>신세계경기</td>
-                    <td className="num">22.9</td>
+                    <td className="num">142</td>
+                    <td className="num">23</td>
                     <td className="num">할인율-5.2%p 개선</td>
                   </tr>
                   <tr>
                     <td>명동점(직)</td>
-                    <td className="num">29.9</td>
+                    <td className="num">336</td>
+                    <td className="num">30</td>
                     <td className="num">신규, 할인율6.9% 양호</td>
                   </tr>
                 </tbody>
