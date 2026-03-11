@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'DISCOVERY 브랜드 2026년 1월 경영 보고서',
-  description: 'DISCOVERY 브랜드 2026년 1월 경영 보고서',
+  title: 'DISCOVERY 브랜드 2026년 경영 보고서',
+  description: 'DISCOVERY 브랜드 2026년 경영 보고서',
 }
 
 export default function RootLayout({
@@ -21,7 +21,6 @@ export default function RootLayout({
     </html>
   )
 }
-
 
 
 

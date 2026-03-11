@@ -393,3 +393,60 @@ li ul {
 
 
 
+
+.monthSelector {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-right: 12px;
+  padding-right: 12px;
+  border-right: 1px solid rgba(255,255,255,0.3);
+}
+
+.monthSelector label {
+  color: rgba(255,255,255,0.8);
+  font-size: 8px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+}
+
+.monthSelector select {
+  background: rgba(255,255,255,0.15);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 3px;
+  padding: 3px 22px 3px 8px;
+  font-size: 9px;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='white'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 6px center;
+  transition: background 0.2s;
+}
+
+.monthSelector select:hover {
+  background-color: rgba(255,255,255,0.25);
+}
+
+.monthSelector select option {
+  background: #2d6a4f;
+  color: white;
+}
+
+.reportMonth { 
+  display: none; 
+}
+
+.reportMonth.active { 
+  display: block; 
+}
+
+.navLinks { 
+  display: flex; 
+  gap: 6px; 
+  flex-wrap: wrap; 
+}
