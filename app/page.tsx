@@ -2,7 +2,7 @@
 
 export default function Home() {
   if (typeof window !== 'undefined') {
-    window.location.href = '/Discovery_report.html'
+    window.location.href = '/combined.html'
   }
   
   return (
