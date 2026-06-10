@@ -306,13 +306,13 @@
     </select>
   </div>
   <div class="nav-links" id="navLinks">
-    <a href="#apr-sec1">1. 4월 Overview</a>
-    <a href="#apr-sec2">2. 3월진단 판정표</a>
-    <a href="#apr-sec3">3. 5월 추세점검</a>
-    <a href="#apr-sec4">4. Executive Summary</a>
-    <a href="#apr-sec5">5. 채널별 분석</a>
-    <a href="#apr-sec6">6. 26S 의류분석</a>
-    <a href="#apr-sec7">7. 25FW 재고소진</a>
+    <a href="#may-sec1">1. 5월 Overview</a>
+    <a href="#may-sec2">2. 4월진단 판정표</a>
+    <a href="#may-sec3">3. 6월 추세점검</a>
+    <a href="#may-sec4">4. Executive Summary</a>
+    <a href="#may-sec5">5. 채널별 분석</a>
+    <a href="#may-sec6">6. 26S 의류분석</a>
+    <a href="#may-sec7">7. 25FW 재고소진</a>
   </div>
 </div>
 
@@ -5072,6 +5072,12 @@ function switchMonth(month) {
   // Scroll to top
   window.scrollTo(0, 0);
 }
+
+// 페이지 로드 시 드롭다운 선택값(브라우저 폼 복원 포함)에 맞춰 본문/네비 동기화
+window.addEventListener('pageshow', function() {
+  var sel = document.getElementById('monthSelect');
+  if (sel) switchMonth(sel.value);
+});
 </script>
 
 </body>
